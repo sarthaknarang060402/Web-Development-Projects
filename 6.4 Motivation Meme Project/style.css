@@ -1,0 +1,21 @@
+body{
+    color: white;
+    background-color: black;
+    
+}
+.photo{
+    border: 5px solid white;
+    width: 100%;
+}
+.Libre{
+    font-family: 'Libre Baskerville', serif;
+}
+.poster{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
