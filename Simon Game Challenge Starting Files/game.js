@@ -9,5 +9,5 @@ var randomChosenColour = buttonColours[randomNumber];
 gamePattern.push(randomChosenColour);
 
 $("#" + randomChosenColour).fadeOut(100).fadeIn(100)
-var playSound = new Audio("sounds/" + randomChosenColour + ".mp3");
+var playSound = new Audio("/Simon Game Challenge Starting Files/sounds/" + randomChosenColour + ".mp3");
 playSound.play();
