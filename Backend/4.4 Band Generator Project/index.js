@@ -36,6 +36,7 @@ app.post("/submit", (req, res) => {
   res.render("index.ejs", {
     sendadj: myadj,
     sendnoun: mynoun,
+    year,
   });
 });
 
