@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <form action="/weather" id="myForm" method="get">
+        <label for="latInput">latitude:</label>
+        <input type="text" id="latInput" name="lat">
+        <label for="lonInput">longitude:</label>
+        <input type="text" id="lonInput" name="lon">
+        <label for="submit">submit:</label>
+        <input id="get" type="submit" value="Get Weather">
+      </form>
+      <h1>
+        <%if(locals.weather){%>
+            <%=weather%>
+        <%}%>
+        <h4>
+</body>
+</html>
