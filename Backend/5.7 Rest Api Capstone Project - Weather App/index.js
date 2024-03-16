@@ -11,7 +11,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 // const lon = -122.4194;
 app.use(bodyParser.urlencoded({ extended: true }));
 // get it from --> https://home.openweathermap.org/api_keys
-const apiKey = "31ed548ed7b2267fd266209bfbc87e16";
+const apiKey = "";
 
 app.get("/", (req, res) => {
   res.render(__dirname + "/views/index.ejs");
