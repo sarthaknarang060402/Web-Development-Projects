@@ -5,7 +5,7 @@ import bcrypt from 'bcrypt'
 
 const app = express()
 const port = 3000
-const saltRounds = 10
+const saltRounds = 11
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static('public'))
